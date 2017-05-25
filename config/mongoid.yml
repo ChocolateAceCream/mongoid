@@ -1,0 +1,21 @@
+development:
+  clients:
+    default:
+      database: sodibee_development
+      hosts:
+        - localhost:27017
+      options:
+        user: didi
+        password: 123qweasd
+        auth_source: sodibee_development
+
+test:
+  clients:
+    default:
+      database: sodibee_test
+      hosts:
+        - localhost:27017
+      options:
+        user: didi
+        password: 123qweasd
+        auth_source: sodibee_test
