@@ -11,4 +11,5 @@ class Player
     has_and_belongs_to_many :following,
                             class_name: "Player",
                             inverse_of: :followers
+	index({name: 1, age: 1})
 end
