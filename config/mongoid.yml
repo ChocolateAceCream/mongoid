@@ -8,6 +8,8 @@ development:
         user: didi
         password: 123qweasd
         auth_source: sodibee_development
+        write:
+            w: 1
 
 test:
   clients:

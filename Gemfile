@@ -8,7 +8,11 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
 gem 'mongoid', git: 'https://github.com/mongodb/mongoid.git'
+gem 'faker'
 
+gem 'unicorn'
+
+gem 'mongoid-versioning', github: 'simi/mongoid-versioning'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
